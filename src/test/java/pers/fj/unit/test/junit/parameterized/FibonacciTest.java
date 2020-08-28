@@ -1,4 +1,4 @@
-package pers.fj.unit.test.junit.parameter;
+package pers.fj.unit.test.junit.parameterized;
 
 import org.junit.Before;
 import org.junit.Test;

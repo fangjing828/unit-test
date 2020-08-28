@@ -1,4 +1,4 @@
-package pers.fj.unit.test.junit.parameter;
+package pers.fj.unit.test.junit.parameterized;
 
 /**
  * Created by fang_j on 2020/08/19.

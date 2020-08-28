@@ -1,4 +1,4 @@
-package pers.fj.unit.test.junit.parameter;
+package pers.fj.unit.test.junit.parameterized;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -11,8 +11,8 @@ import static org.junit.Assert.assertEquals;
  * Created by fang_j on 2020/08/19.
  */
 @RunWith(Parameterized.class)
-public class FibonacciTestWithCustomName {
-    @Parameterized.Parameters(name = "{index}:compute({0})={1}")
+public class FibonacciTestWithParameter {
+    @Parameterized.Parameters
     public static Object[][] data() {
         return new Object[][]{
                 {0, 0},
