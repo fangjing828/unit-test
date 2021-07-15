@@ -11,9 +11,17 @@
     <modules>
         <module>queue-test</module>
         <module>io-test</module>
+        <module>thread-test</module>
+        <module>lock-test</module>
+        <module>collection-test</module>
     </modules>
 
     <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.51.Final</version>
+        </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-all</artifactId>
