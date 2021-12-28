@@ -1,7 +1,6 @@
 package thread.pool;
 
-import com.google.common.collect.Lists;
-
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ThreadFactory;
 
@@ -15,7 +14,7 @@ public class DynamicThreadPool {
     private final Runnable runnable;
 
     public DynamicThreadPool(String namePrefix, boolean daemon, Runnable runnable, int size) {
-        workerList = Lists.newArrayList();
+        workerList = new ArrayList<>();
         factory = ArtemisThreadFactory.create(namePrefix, daemon);
         this.runnable = runnable;
         changeSize(size);
