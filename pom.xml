@@ -15,6 +15,7 @@
         <module>lock-test</module>
         <module>collection-test</module>
         <module>mockito-use-cases</module>
+        <module>zookeeper-test</module>
     </modules>
 
     <dependencyManagement>
