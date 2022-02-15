@@ -16,7 +16,14 @@
         <module>collection-test</module>
         <module>mockito-use-cases</module>
         <module>zookeeper-test</module>
+        <module>archaius-test</module>
+        <module>generic-test</module>
     </modules>
+
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
 
     <dependencyManagement>
         <dependencies>
@@ -29,6 +36,11 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
+                <version>1.7.30</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-jdk14</artifactId>
                 <version>1.7.30</version>
             </dependency>
             <dependency>
