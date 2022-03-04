@@ -12,8 +12,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * Created by fangjing 2022-02-15.
  */
 public class DynamicTests {
-    @TestFactory
-    public Stream<DynamicTest> translateDynamicTestsFromStream() {
+//    @TestFactory
+//    public Stream<DynamicTest> translateDynamicTestsFromStream() {
 //        return in.stream()
 //                .map(word ->
 //                        DynamicTest.dynamicTest("Test translate " + word, () -> {
